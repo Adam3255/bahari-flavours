@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Place an Order - Bahari Flavours</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Place Your Order</h1>
+  </header>
 
+  <form id="orderForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <label>Name:</label>
+    <input type="text" name="name" required>
+
+    <label>Phone:</label>
+    <input type="tel" name="phone" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <h3>Select Products</h3>
+
+    <label><input type="checkbox" name="Garam Masala" value="4" onchange="updateTotal()"> Garam Masala – $4</label><br>
+    <label><input type="checkbox" name="Chai Tea Masala (4 oz)" value="7" onchange="updateTotal()"> Chai Tea Masala (4 oz) – $7</label><br>
+    <label><input type="checkbox" name="Chai Tea Masala (8 oz)" value="12" onchange="updateTotal()"> Chai Tea Masala (8 oz) – $12</label><br>
+    <label><input type="checkbox" name="Chevdo" value="8" onchange="updateTotal()"> Chevdo – $8</label><br>
+    <label><input type="checkbox" name="Thepla" value="0.75" onchange="updateTotal()"> Thepla – $0.75</label><br>
+    <label><input type="checkbox" name="Pera" value="11" onchange="updateTotal()"> Pera – $11</label><br>
+
+    <p>Total: $<span id="total">0</span></p>
+
+    <button type="submit">Send Order</button>
+  </form>
+
+  <footer>
+    <p>Orders will be emailed to alidina.adam@gmail.com</p>
+  </footer>
+</body>
+</html>
