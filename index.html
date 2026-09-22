@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bahari Flavours</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Taste the Coast. Savour the Tradition.</h1>
-    <p>Handcrafted spices, Banana  snacks, chutneys, and achars inspired by coastal warmth and homecooked comfort.</p>
 
+  <header class="hero">
+    <img src="bahari-logo.png" alt="Bahari Flavours Logo" class="logo">
+    <h1>Taste the Coast. Savour the Tradition.</h1>
+    <p class="tagline">Handcrafted spices, banana snacks, chutneys, and achars inspired by coastal warmth and home‑cooked comfort.</p>
     <nav>
       <a href="index.html">Home</a>
       <a href="products.html">Products</a>
@@ -17,13 +19,50 @@
     </nav>
   </header>
 
-  <section class="welcome">
-    <h2>Welcome to Bahari Flavours</h2>
-    <p>Bahari Flavours brings the coast to your kitchen with small‑batch spices, irresistible Indian snacks, and chutneys and achars bursting with bold, layered flavour.</p>
+  <section class="intro container">
+    <h2>Welcome to Bahari Flavours</h2>
+    <p>Bahari Flavours brings the coast to your kitchen with small‑batch spices, irresistible Indian snacks, and chutneys and achars bursting with bold, layered flavour.</p>
+  </section>
+
+  <section class="featured container">
+    <h2>Our Signature Creations</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/spices.jpg" alt="Spices">
+        <h3>Coastal Spice Blend</h3>
+        <p>Aromatic mix of sun‑dried chilies, coconut, and curry leaves.</p>
+      </div>
+      <div class="card">
+        <img src="images/banana-snacks.jpg" alt="Banana Snacks">
+        <h3>Banana Crisps</h3>
+        <p>Crunchy, golden slices seasoned with sea salt and turmeric.</p>
+      </div>
+      <div class="card">
+        <img src="images/chutney.jpg" alt="Chutney">
+        <h3>Tamarind Chutney</h3>
+        <p>Sweet‑tart perfection with hints of jaggery and spice.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="story container">
+    <div class="story-text">
+      <h2>Our Story</h2>
+      <p>Born from coastal kitchens and family recipes, Bahari Flavours celebrates the art of slow cooking and the joy of sharing food that feels like home. Every jar carries the warmth of tradition and the freshness of the sea breeze.</p>
+    </div>
+    <div class="story-image">
+      <img src="images/coastal-kitchen.jpg" alt="Coastal Kitchen">
+    </div>
   </section>
 
   <footer>
-    <p>© Bahari Flavours</p>
+    <p>© Bahari Flavours</p>
+    <div class="social">
+      <a href="#">Instagram</a> |
+      <a href="#">Facebook</a> |
+      <a href="#">Contact</a>
+    </div>
   </footer>
+
 </body>
 </html>
