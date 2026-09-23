@@ -1,5 +1,5 @@
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');  /* imported font that looks better */
 
 body {
   margin: 0;
@@ -10,7 +10,7 @@ body {
 
 /* NAV BAR */
 nav {
-  background: #0a6ebd;
+  background: #0a6ebd; /* similair to ixerion blue*/
   padding: 15px 20px;
   display: flex;
   justify-content: center;
@@ -25,12 +25,12 @@ nav a {
 }
 
 nav a:hover {
-  color: #f4a261;
+  color: #f4a261; 
 }
 
 /* HERO */
 .hero {
-  background: linear-gradient(135deg, #0079c1, #1282a2);
+  background: linear-gradient(135deg, #0079c1, #1282a2); /* ixerion bluye and ocean teal */
   color: white;
   text-align: center;
   padding: 60px 20px;
@@ -86,7 +86,7 @@ nav a:hover {
 }
 
 .card h3 {
-  color: #0079c1;
+  color: #0079c1; /* ixerion blue */
   margin: 12px 0 5px;
 }
 
