@@ -2,41 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Place an Order - Bahari Flavours</title>
+  <title>Place an Order</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>Place Your Order</h1>
-  </header>
 
-  <form id="orderForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-    <label>Name:</label>
-    <input type="text" name="name" required>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="products.html">Products</a>
+  <a href="order.html">Order</a>
+</nav>
 
-    <label>Phone:</label>
-    <input type="tel" name="phone" required>
+<div class="container">
+  <div class="order-box">
+    <h2>Place Your Order</h2>
 
-    <label>Email:</label>
-    <input type="email" name="email" required>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
 
-    <h3>Select Products</h3>
+      <label>Name</label>
+      <input type="text" name="name" required>
 
-    <label><input type="checkbox" name="Garam Masala" value="4" onchange="updateTotal()"> Garam Masala – $4</label><br>
-    <label><input type="checkbox" name="Chai Tea Masala (4 oz)" value="7" onchange="updateTotal()"> Chai Tea Masala (4 oz) – $7</label><br>
-    <label><input type="checkbox" name="Chai Tea Masala (8 oz)" value="12" onchange="updateTotal()"> Chai Tea Masala (8 oz) – $12</label><br>
-    <label><input type="checkbox" name="Chevdo" value="8" onchange="updateTotal()"> Chevdo – $8</label><br>
-    <label><input type="checkbox" name="Thepla" value="0.75" onchange="updateTotal()"> Thepla – $0.75</label><br>
-    <label><input type="checkbox" name="Pera" value="11" onchange="updateTotal()"> Pera – $11</label><br>
+      <label>Email</label>
+      <input type="email" name="email" required>
 
-    <p>Total: $<span id="total">0</span></p>
+      <label>Phone Number</label>
+      <input type="tel" name="phone" required>
 
-    <button type="submit">Send Order</button>
-  </form>
+      <label>Products</label>
+      <textarea name="products" placeholder="List the items you want..." required></textarea>
 
-  <footer>
-    <p>Orders will be emailed to alidina.adam@gmail.com</p>
-  </footer>
+      <button type="submit">Submit Order</button>
+    </form>
+  </div>
+</div>
+
+<footer>
+  © Bahari Flavours  
+</footer>
+
 </body>
 </html>
