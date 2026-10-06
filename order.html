@@ -17,32 +17,33 @@
  <div class="order-layout">
   <div class="price-list">
     <h2>Price List</h2>
+    <div class="price-scroll">
       <h3 class="price-category">Spice Blends</h3>
       <div class="table-wrap">
         <table>
           <thead>
-            <tr><th>Product</th><th>Price</th><th>Size</th></tr>
+            <tr><th aria-label="Select"></th><th>Product</th><th>Price</th><th>Size</th></tr>
           </thead>
           <tbody>
-            <tr><td>Garam Masala</td><td>$4.00</td><td>4 oz bottle</td></tr>
-            <tr><td rowspan="2">Chai Masala</td><td>$7.00</td><td>4 oz bottle</td></tr>
-            <tr><td>$12.00</td><td>8 oz bottle</td></tr>
-            <tr><td>Dhana Jeero Mix</td><td>$4.00</td><td>4 oz bottle</td></tr>
-            <tr><td>Turmeric Powder</td><td>$4.00</td><td>4 oz bottle</td></tr>
-            <tr><td>Tandoori Masala</td><td>$5.00</td><td>4 oz bottle</td></tr>
-            <tr><td>Smoky Mango Rub</td><td>$6.00</td><td>4 oz bottle</td></tr>
-            <tr><td>Brazilian Steak Seasoning</td><td>$5.00</td><td>4 oz bottle</td></tr>
-            <tr><td>Fish Masala</td><td>$6.00</td><td>4 oz bottle</td></tr>
-            <tr><td>Tikka Masala</td><td>$5.00</td><td>4 oz bottle</td></tr>
-            <tr class="na"><td>Cajun Seasoning</td><td>N/A</td><td>N/A</td></tr>
-            <tr class="na"><td>Creole Seasoning</td><td>N/A</td><td>N/A</td></tr>
-            <tr class="na"><td>Curry Seasoning</td><td>N/A</td><td>N/A</td></tr>
-            <tr class="na"><td>Karahi Gosht Masala</td><td>N/A</td><td>N/A</td></tr>
-            <tr class="na"><td>Kitchen King Masala</td><td>N/A</td><td>N/A</td></tr>
-            <tr class="na"><td>Moroccan Spice Seasoning</td><td>N/A</td><td>N/A</td></tr>
-            <tr class="na"><td>Lemon Pepper Seasoning</td><td>N/A</td><td>N/A</td></tr>
-            <tr class="na"><td>Shish Kabab Seasoning</td><td>N/A</td><td>N/A</td></tr>
-            <tr class="na"><td>Tex-Mex Seasoning</td><td>N/A</td><td>N/A</td></tr>
+            <tr><td><input type="checkbox" class="pick" value="4.00" data-label="Garam Masala, 4 oz bottle" data-display="$4.00" aria-label="Select Garam Masala, 4 oz bottle"></td><td>Garam Masala</td><td>$4.00</td><td>4 oz bottle</td></tr>
+            <tr><td><input type="checkbox" class="pick" value="7.00" data-label="Chai Masala, 4 oz bottle" data-display="$7.00" aria-label="Select Chai Masala, 4 oz bottle"></td><td rowspan="2">Chai Masala</td><td>$7.00</td><td>4 oz bottle</td></tr>
+            <tr><td><input type="checkbox" class="pick" value="12.00" data-label="Chai Masala, 8 oz bottle" data-display="$12.00" aria-label="Select Chai Masala, 8 oz bottle"></td><td>$12.00</td><td>8 oz bottle</td></tr>
+            <tr><td><input type="checkbox" class="pick" value="4.00" data-label="Dhana Jeero Mix, 4 oz bottle" data-display="$4.00" aria-label="Select Dhana Jeero Mix, 4 oz bottle"></td><td>Dhana Jeero Mix</td><td>$4.00</td><td>4 oz bottle</td></tr>
+            <tr><td><input type="checkbox" class="pick" value="4.00" data-label="Turmeric Powder, 4 oz bottle" data-display="$4.00" aria-label="Select Turmeric Powder, 4 oz bottle"></td><td>Turmeric Powder</td><td>$4.00</td><td>4 oz bottle</td></tr>
+            <tr><td><input type="checkbox" class="pick" value="5.00" data-label="Tandoori Masala, 4 oz bottle" data-display="$5.00" aria-label="Select Tandoori Masala, 4 oz bottle"></td><td>Tandoori Masala</td><td>$5.00</td><td>4 oz bottle</td></tr>
+            <tr><td><input type="checkbox" class="pick" value="6.00" data-label="Smoky Mango Rub, 4 oz bottle" data-display="$6.00" aria-label="Select Smoky Mango Rub, 4 oz bottle"></td><td>Smoky Mango Rub</td><td>$6.00</td><td>4 oz bottle</td></tr>
+            <tr><td><input type="checkbox" class="pick" value="5.00" data-label="Brazilian Steak Seasoning, 4 oz bottle" data-display="$5.00" aria-label="Select Brazilian Steak Seasoning, 4 oz bottle"></td><td>Brazilian Steak Seasoning</td><td>$5.00</td><td>4 oz bottle</td></tr>
+            <tr><td><input type="checkbox" class="pick" value="6.00" data-label="Fish Masala, 4 oz bottle" data-display="$6.00" aria-label="Select Fish Masala, 4 oz bottle"></td><td>Fish Masala</td><td>$6.00</td><td>4 oz bottle</td></tr>
+            <tr><td><input type="checkbox" class="pick" value="5.00" data-label="Tikka Masala, 4 oz bottle" data-display="$5.00" aria-label="Select Tikka Masala, 4 oz bottle"></td><td>Tikka Masala</td><td>$5.00</td><td>4 oz bottle</td></tr>
+            <tr class="na"><td><input type="checkbox" class="pick" value="0" data-label="Cajun Seasoning" data-display="N/A" aria-label="Select Cajun Seasoning"></td><td>Cajun Seasoning</td><td>N/A</td><td>N/A</td></tr>
+            <tr class="na"><td><input type="checkbox" class="pick" value="0" data-label="Creole Seasoning" data-display="N/A" aria-label="Select Creole Seasoning"></td><td>Creole Seasoning</td><td>N/A</td><td>N/A</td></tr>
+            <tr class="na"><td><input type="checkbox" class="pick" value="0" data-label="Curry Seasoning" data-display="N/A" aria-label="Select Curry Seasoning"></td><td>Curry Seasoning</td><td>N/A</td><td>N/A</td></tr>
+            <tr class="na"><td><input type="checkbox" class="pick" value="0" data-label="Karahi Gosht Masala" data-display="N/A" aria-label="Select Karahi Gosht Masala"></td><td>Karahi Gosht Masala</td><td>N/A</td><td>N/A</td></tr>
+            <tr class="na"><td><input type="checkbox" class="pick" value="0" data-label="Kitchen King Masala" data-display="N/A" aria-label="Select Kitchen King Masala"></td><td>Kitchen King Masala</td><td>N/A</td><td>N/A</td></tr>
+            <tr class="na"><td><input type="checkbox" class="pick" value="0" data-label="Moroccan Spice Seasoning" data-display="N/A" aria-label="Select Moroccan Spice Seasoning"></td><td>Moroccan Spice Seasoning</td><td>N/A</td><td>N/A</td></tr>
+            <tr class="na"><td><input type="checkbox" class="pick" value="0" data-label="Lemon Pepper Seasoning" data-display="N/A" aria-label="Select Lemon Pepper Seasoning"></td><td>Lemon Pepper Seasoning</td><td>N/A</td><td>N/A</td></tr>
+            <tr class="na"><td><input type="checkbox" class="pick" value="0" data-label="Shish Kabab Seasoning" data-display="N/A" aria-label="Select Shish Kabab Seasoning"></td><td>Shish Kabab Seasoning</td><td>N/A</td><td>N/A</td></tr>
+            <tr class="na"><td><input type="checkbox" class="pick" value="0" data-label="Tex-Mex Seasoning" data-display="N/A" aria-label="Select Tex-Mex Seasoning"></td><td>Tex-Mex Seasoning</td><td>N/A</td><td>N/A</td></tr>
           </tbody>
         </table>
       </div>
@@ -50,12 +51,12 @@
       <div class="table-wrap">
         <table>
           <thead>
-            <tr><th>Product</th><th>Price</th><th>Size</th></tr>
+            <tr><th aria-label="Select"></th><th>Product</th><th>Price</th><th>Size</th></tr>
           </thead>
           <tbody>
-            <tr><td>Chevdo (spiced lentil mix)</td><td>$8.00</td><td>500 g container</td></tr>
-            <tr><td>Thepla</td><td>$0.75</td><td>per piece</td></tr>
-            <tr class="na"><td>Lemon-Chili Peanuts</td><td>N/A</td><td>N/A</td></tr>
+            <tr><td><input type="checkbox" class="pick" value="8.00" data-label="Chevdo (spiced lentil mix), 500 g container" data-display="$8.00" aria-label="Select Chevdo (spiced lentil mix), 500 g container"></td><td>Chevdo (spiced lentil mix)</td><td>$8.00</td><td>500 g container</td></tr>
+            <tr><td><input type="checkbox" class="pick" value="0.75" data-label="Thepla, per piece" data-display="$0.75" aria-label="Select Thepla, per piece"></td><td>Thepla</td><td>$0.75</td><td>per piece</td></tr>
+            <tr class="na"><td><input type="checkbox" class="pick" value="0" data-label="Lemon-Chili Peanuts" data-display="N/A" aria-label="Select Lemon-Chili Peanuts"></td><td>Lemon-Chili Peanuts</td><td>N/A</td><td>N/A</td></tr>
           </tbody>
         </table>
       </div>
@@ -63,13 +64,14 @@
       <div class="table-wrap">
         <table>
           <thead>
-            <tr><th>Product</th><th>Price</th><th>Size</th></tr>
+            <tr><th aria-label="Select"></th><th>Product</th><th>Price</th><th>Size</th></tr>
           </thead>
           <tbody>
-            <tr><td>Pera/Penda/Peda</td><td>$11.00</td><td>1 lb container</td></tr>
+            <tr><td><input type="checkbox" class="pick" value="11.00" data-label="Pera/Penda/Peda, 1 lb container" data-display="$11.00" aria-label="Select Pera/Penda/Peda, 1 lb container"></td><td>Pera/Penda/Peda</td><td>$11.00</td><td>1 lb container</td></tr>
           </tbody>
         </table>
       </div>
+    </div>
   </div>
 
   <div class="order-box">
@@ -89,6 +91,15 @@
       <label>Products</label>
       <textarea name="products" placeholder="List the items you want..." required></textarea>
 
+      <div class="selected-box">
+        <strong>Selected from the price list</strong>
+        <p class="selected-empty" id="selected-empty">Tick items in the price list to add them here.</p>
+        <ul id="selected-list"></ul>
+        <p class="order-total">Total: $<span id="total">0.00</span></p>
+        <p class="order-note" id="na-note">Items marked N/A are not included in the total.</p>
+      </div>
+      <input type="hidden" name="selected_items" id="selected-items">
+
       <button type="submit">Submit Order</button> <!-- I wanna change the colours of these buttons like (green submit -->
     </form>
   </div>
@@ -98,6 +109,8 @@
 <footer>
   © Bahari Flavours  
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
