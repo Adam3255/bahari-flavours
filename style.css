@@ -90,6 +90,58 @@ nav a:hover {
   margin: 12px 0 5px;
 }
 
+.category {
+  color: #0a6ebd;
+  font-size: 1.5em;
+  margin: 40px 0 20px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #c5e3f3;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  width: 330px;
+  box-sizing: border-box;
+  padding: 22px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.product-card h3 {
+  color: #0079c1;
+  margin: 0 0 6px;
+  font-size: 1.25em;
+}
+
+.product-card p {
+  margin: 8px 0;
+}
+
+.product-card .price {
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #1282a2;
+  margin: 2px 0;
+}
+
+.product-card .price span {
+  font-weight: 400;
+  font-size: 0.85em;
+  color: #555;
+}
+
+.product-card ul {
+  margin: 4px 0 0;
+  padding-left: 20px;
+}
+
+.product-card li {
+  margin-bottom: 6px;
+}
+
 /* ORDER FORM */
 .order-box {
   background: white;
@@ -101,6 +153,51 @@ nav a:hover {
 .order-box h2 {
   text-align: center;
   margin-bottom: 20px;
+}
+
+.price-list {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+.price-list h2 {
+  background: #1282a2;
+  color: white;
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.price-category {
+  background: #c5e3f3;
+  color: #0a4a6e;
+  margin: 25px 0 0;
+  padding: 10px 14px;
+  font-size: 1.1em;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+.price-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.price-list th,
+.price-list td {
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid #dde6ec;
+}
+
+.price-list th {
+  border-bottom: 2px solid #1282a2;
 }
 
 label {
